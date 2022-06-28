@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="576.0" prefWidth="870.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyecto.JuegoController">
+   <children>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#tipo1" prefHeight="71.0" prefWidth="210.0" text="Ciencias" textFill="#b94c4c">
+       <graphic>
+        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="https://icons.iconarchive.com/icons/blackvariant/button-ui-microsoft-office-apps/1024/Microsoft-Language-icon.png" />
+          </image>
+        </ImageView>
+      </graphic>
+      
+     </Button>
+      
+       
+      
+      <Button fx:id="btnsecundarioclick" layoutX="225.0" layoutY="14.0" mnemonicParsing="false" onAction="#tipo2" prefHeight="71.0" prefWidth="210.0" text="Inglés" textFill="#cd4c4c" >
+          
+              <graphic>
+        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="https://icons.iconarchive.com/icons/icons-land/vista-flags/256/English-Language-Flag-3-icon.png" />
+          </image>
+        </ImageView>
+      </graphic>
+      
+     </Button>  
+          
+          
+          
+      <Button layoutX="436.0" layoutY="14.0" mnemonicParsing="false" onAction="#tipo3" prefHeight="71.0" prefWidth="210.0" text="Mate" textFill="#cd5757" >
+             <graphic>
+        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="https://icons.iconarchive.com/icons/custom-icon-design/pretty-office-10/512/Numbers-icon.png" />
+          </image>
+        </ImageView>
+      </graphic>
+      
+     </Button>   
+          
+          
+          
+      <Button layoutX="647.0" layoutY="14.0" mnemonicParsing="false" onAction="#tipo4" prefHeight="71.0" prefWidth="220.0" text="Español" textFill="#c62d2d" >
+            <graphic>
+        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="https://icons.iconarchive.com/icons/custom-icon-design/pretty-office-10/512/Letters-icon.png" />
+          </image>
+        </ImageView>
+      </graphic>
+      
+     </Button>    
+          
+          
+      <Button layoutX="336.0" layoutY="385.0" mnemonicParsing="false" onAction="#Siguiente" prefHeight="77.0" prefWidth="229.0" text="" >
+            <graphic>
+        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="https://icons.iconarchive.com/icons/hopstarter/soft-scraps/256/Button-Next-icon.png" />
+          </image>
+        </ImageView>
+      </graphic>
+      
+     </Button>    
+      <Label fx:id="Pregunta" layoutX="9.0" layoutY="170.0" prefHeight="93.0" prefWidth="850.0" text="Titulo" >
+               <font>
+                <Font name="Arial Black" size="15.0" />
+               </font> 
+          
+      </Label> 
+      <Label fx:id="Respuesta" layoutX="9.0" layoutY="262.0" prefHeight="17.0" prefWidth="850.0" text="Pregunta" >
+          <font>
+                <Font name="Arial Black" size="15.0" />
+               </font> 
+          
+      </Label> 
+      <TextField fx:id="textores" layoutX="330.0" layoutY="345.0" onAction="#texto_Action" prefHeight="25.0" prefWidth="236.0" />
+      <Label fx:id="Respuesta1" layoutX="330.0" layoutY="310.0" prefHeight="17.0" prefWidth="300.0" text="Escribe la respuesta y da Enter:" >
+           <font>
+                <Font name="Arial Black" size="15.0" />
+               </font> 
+          
+      </Label> 
+      <TextField fx:id="validacion" layoutX="608.0" layoutY="345.0" prefHeight="25.0" prefWidth="220.0" />
+      <TextField fx:id="RespuestaValida" layoutX="608.0" layoutY="374.0" prefHeight="25.0" prefWidth="220.0" />
+ 
+
+    
+   </children>
+</AnchorPane>
